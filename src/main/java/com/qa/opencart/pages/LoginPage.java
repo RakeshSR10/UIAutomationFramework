@@ -21,8 +21,6 @@ public class LoginPage {
 	private By appLogo = By.xpath("//img[@alt= 'naveenopencart']");
 
 	private By registerPageLink = By.linkText("Register");
-	
-	private By registerPageLink1 = By.linkText("Register");
 
 	// page constructor:
 	public LoginPage(WebDriver driver) {
